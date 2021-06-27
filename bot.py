@@ -28,4 +28,4 @@ async def help(ctx):
 
     await ctx.send(author, embed=embed)
 
-bot.run("Nzg5NDc2MjgyMDg0NjIyNDA3.X9ynFQ.E_yCDCr-jIg3GircSmU_7HVizp4")
+client.run(os.environ["DISCORD_TOKEN"])
